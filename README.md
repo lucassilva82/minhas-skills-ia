@@ -32,12 +32,17 @@ Legenda das colunas de máquina: ✅ instalado · ❌ não instalado · ? não c
 | Skills pessoais (`~/.claude/skills`) | Skills próprias, feitas por mim | — | Nenhuma criada ainda | — | ? | ? |
 | Plugins do Claude Code | Pacotes de skills, comandos e hooks | Catálogo de plugins no Claude | Nenhum instalado ainda | — | ? | ? |
 | Servidores MCP | Conectam o Claude a outros serviços | — | Nenhum configurado (Desktop e Code) | — | ? | ? |
+| Skills do Remotion (`remotion-dev/skills`) | Boas práticas de vídeo em código: animação, legendas, transições, círculos desenhados à mão | https://github.com/remotion-dev/skills | Por projeto: no appsoupmrr, `tools/video-tutorial/scripts/instalar-skills.sh` (o `npx skills add remotion-dev/skills` oficial exige Node 22+) | ✅ no appsoupmrr | ? | ? |
 
 ### Gravação de tela e vídeo
 
 | Ferramenta | Para que serve | Onde baixar | Como instalar | iMac | MacBook | Windows |
 |---|---|---|---|---|---|---|
 | Recordly | Gravar telas e fazer vídeos (zoom automático, cursor suave, fundos, webcam, exporta MP4/GIF) | https://github.com/webadderallorg/Recordly/releases | Mac: `brew install --cask recordly` · Windows: `Recordly-windows-x64.exe` dos releases | ✅ 1.4.0 | ? | ? |
+| Remotion | Vídeo feito em código (React): usado nos tutoriais do SouPMRR | https://www.remotion.dev | Vem pelo `npm install` do projeto (`tools/video-tutorial` no appsoupmrr, versão 4.0.531) | ✅ | ? | ? |
+| edge-tts | Voz neural pt-BR da Microsoft, sem conta; voz escolhida: `pt-BR-ThalitaMultilingualNeural` | https://github.com/rany2/edge-tts | `pip install edge-tts` (o `preparar.sh` do projeto instala num `.venv`) | ✅ 7.3.1 | ? | ? |
+| Voicebox | Estúdio de voz local (Kokoro, Qwen3-TTS, clonagem). Testado e **recusado** para pt-BR: robótico e com sotaque de Portugal | https://github.com/jamiepine/voicebox/releases | DMG `Voicebox_0.5.0_aarch64.dmg` (não precisa instalar) | ✅ 0.5.0 | ? | ? |
+| Node.js 20 e Python 3 | Base do Remotion e dos scripts de vídeo | https://brew.sh | `brew install node@20 python` (o `instalar-mac.sh` instala) | ✅ | ? | ? |
 
 ### Editores e IDEs (onde as extensões de IA rodam)
 
@@ -53,6 +58,15 @@ Legenda das colunas de máquina: ✅ instalado · ❌ não instalado · ? não c
 | OpenAI Codex CLI | Agente de programação da OpenAI | https://github.com/openai/codex | `brew install --cask codex` | ❌ | ? | ? |
 | GitHub Copilot | Sugestões de código no VS Code | https://github.com/features/copilot | `code --install-extension GitHub.copilot` | ❌ | ? | ? |
 | Gemini CLI | Agente do Google no terminal | https://github.com/google-gemini/gemini-cli | `brew install gemini-cli` | ❌ | ? | ? |
+
+## Projetos
+
+Cada projeto descreve no próprio repositório o que precisa. Ao clonar, o Claude
+lê o `CLAUDE.md` e segue o `SETUP.md`.
+
+| Projeto | Onde está o que instalar |
+|---|---|
+| appsoupmrr (SouPMRR) | `CLAUDE.md` (regras), `SETUP.md` (§2 ferramentas do app, §10 vídeos), `APRENDIZADOS.md` §33 (receita dos vídeos) |
 
 ## Como instalar em um Mac novo
 
