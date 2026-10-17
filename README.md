@@ -37,7 +37,7 @@ Legenda das colunas de máquina: ✅ instalado · ❌ não instalado · ? não c
 
 | Ferramenta | Para que serve | Onde baixar | Como instalar | iMac | MacBook | Windows |
 |---|---|---|---|---|---|---|
-| Recordly | Gravar telas e fazer vídeos (zoom automático, cursor suave, fundos, webcam, exporta MP4/GIF) | https://github.com/webadderallorg/Recordly/releases | Mac: `brew install --cask recordly` · Windows: `Recordly-windows-x64.exe` dos releases | ⏳ instalando | ? | ? |
+| Recordly | Gravar telas e fazer vídeos (zoom automático, cursor suave, fundos, webcam, exporta MP4/GIF) | https://github.com/webadderallorg/Recordly/releases | Mac: `brew install --cask recordly` · Windows: `Recordly-windows-x64.exe` dos releases | ✅ 1.4.0 | ? | ? |
 
 ### Editores e IDEs (onde as extensões de IA rodam)
 
