@@ -32,8 +32,8 @@ Legenda das colunas de máquina: ✅ instalado · ❌ não instalado · ? não c
 | Skills pessoais (`~/.claude/skills`) | Skills próprias, feitas por mim | — | Nenhuma criada ainda | — | ? | ? |
 | Plugins do Claude Code | Pacotes de skills, comandos e hooks | Catálogo de plugins no Claude | Nenhum instalado ainda | — | ? | ? |
 | Servidores MCP | Conectam o Claude a outros serviços | — | Nenhum configurado (Desktop e Code) | — | ? | ? |
-| ui-ux-pro-max | Regras de UI/UX (acessibilidade, alvos de toque, hierarquia); base do DESIGN.md do SouPMRR | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | No Claude Code: `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` e `/plugin install ui-ux-pro-max@ui-ux-pro-max-skill` | ❌ | ? | ? |
-| Skills do Remotion (`remotion-dev/skills`) | Boas práticas de vídeo em código: animação, legendas, transições, círculos desenhados à mão | https://github.com/remotion-dev/skills | Por projeto: no appsoupmrr, `tools/video-tutorial/scripts/instalar-skills.sh` (o `npx skills add remotion-dev/skills` oficial exige Node 22+) | ✅ no appsoupmrr | ? | ? |
+| ui-ux-pro-max | Regras de UI/UX (acessibilidade, alvos de toque, hierarquia); base do DESIGN.md do SouPMRR | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | Global: `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` e `/plugin install ui-ux-pro-max@ui-ux-pro-max-skill` no Claude Code. No appsoupmrr já vem no repositório (`.claude/skills/ui-ux-pro-max`) | ✅ no appsoupmrr | ? | ? |
+| Skills do Remotion (`remotion-dev/skills`) | Boas práticas de vídeo em código: animação, legendas, transições, círculos desenhados à mão | https://github.com/remotion-dev/skills | Por projeto: no appsoupmrr, baixadas sozinhas no início da sessão (gancho em `.claude/settings.json`) ou por `tools/video-tutorial/scripts/instalar-skills.sh` (o `npx skills add remotion-dev/skills` oficial exige Node 22+) | ✅ no appsoupmrr | ? | ? |
 
 ### Gravação de tela e vídeo
 
