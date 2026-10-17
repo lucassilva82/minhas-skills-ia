@@ -32,6 +32,7 @@ Legenda das colunas de máquina: ✅ instalado · ❌ não instalado · ? não c
 | Skills pessoais (`~/.claude/skills`) | Skills próprias, feitas por mim | — | Nenhuma criada ainda | — | ? | ? |
 | Plugins do Claude Code | Pacotes de skills, comandos e hooks | Catálogo de plugins no Claude | Nenhum instalado ainda | — | ? | ? |
 | Servidores MCP | Conectam o Claude a outros serviços | — | Nenhum configurado (Desktop e Code) | — | ? | ? |
+| ui-ux-pro-max | Regras de UI/UX (acessibilidade, alvos de toque, hierarquia); base do DESIGN.md do SouPMRR | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | No Claude Code: `/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` e `/plugin install ui-ux-pro-max@ui-ux-pro-max-skill` | ❌ | ? | ? |
 | Skills do Remotion (`remotion-dev/skills`) | Boas práticas de vídeo em código: animação, legendas, transições, círculos desenhados à mão | https://github.com/remotion-dev/skills | Por projeto: no appsoupmrr, `tools/video-tutorial/scripts/instalar-skills.sh` (o `npx skills add remotion-dev/skills` oficial exige Node 22+) | ✅ no appsoupmrr | ? | ? |
 
 ### Gravação de tela e vídeo
@@ -66,7 +67,7 @@ lê o `CLAUDE.md` e segue o `SETUP.md`.
 
 | Projeto | Onde está o que instalar |
 |---|---|
-| appsoupmrr (SouPMRR) | `CLAUDE.md` (regras), `SETUP.md` (§2 ferramentas do app, §10 vídeos), `APRENDIZADOS.md` §33 (receita dos vídeos) |
+| appsoupmrr (SouPMRR) | `CLAUDE.md`: arquivo geral, carrega todos os documentos e lista as skills a instalar |
 
 ## Como instalar em um Mac novo
 
